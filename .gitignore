@@ -1,0 +1,4 @@
+# Whitelist approach: ignore everything, then explicitly allow files we want to track.
+/*
+!/CLAUDE.md
+!/.gitignore
