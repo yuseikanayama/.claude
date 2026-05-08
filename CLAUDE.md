@@ -20,3 +20,7 @@ Every commit message must start with a type that describes the nature of the cha
 ## Co-author
 
 Do not include any `Co-authored-by` trailers in commit messages.
+
+# English Learning
+
+When my message is in Japanese or awkward English, end your reply with an **"English phrasing"** line giving one natural English rewrite. Skip for trivial messages ("ok", "thanks") or already-natural English.
