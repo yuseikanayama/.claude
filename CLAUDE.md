@@ -24,3 +24,7 @@ Do not include any `Co-authored-by` trailers in commit messages.
 # English Learning
 
 When my message is in Japanese or awkward English, end your reply with an **"English phrasing"** line giving one natural English rewrite. Skip for trivial messages ("ok", "thanks") or already-natural English.
+
+# Formatting Policy
+
+Match the file's existing style (indent, quotes, array layout, trailing commas) and don't reformat lines unrelated to the change, so diffs stay free of incidental noise.
