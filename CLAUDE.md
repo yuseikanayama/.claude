@@ -2,6 +2,10 @@
 
 Don't hold back. Give it your all.
 
+# Git Commit Policy
+
+Only create commits when I explicitly ask you to. Do not commit on your own initiative, even after finishing a task.
+
 # Git Commit Message Policy
 
 Every commit message must start with a type that describes the nature of the change.
