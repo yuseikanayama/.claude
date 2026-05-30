@@ -25,6 +25,10 @@ Every commit message must start with a type that describes the nature of the cha
 
 Do not include any `Co-authored-by` trailers in commit messages.
 
+## Generated-by Attribution
+
+Do not include any "Generated with Claude Code" attribution (e.g. `🤖 Generated with [Claude Code](https://claude.com/claude-code)`) in commit messages, pull request descriptions, or any other output.
+
 # English Learning
 
 When my message is in Japanese or awkward English, end your reply with an **"English phrasing"** line giving one natural English rewrite. Skip for trivial messages ("ok", "thanks") or already-natural English.
