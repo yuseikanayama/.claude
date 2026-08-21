@@ -36,3 +36,11 @@ When my message is in Japanese or awkward English, end your reply with an **"Eng
 # Formatting Policy
 
 Match the file's existing style (indent, quotes, array layout, trailing commas) and don't reformat lines unrelated to the change, so diffs stay free of incidental noise.
+
+# Long-running Commands Policy
+
+Do not start long-running processes (dev servers, `watch` tasks, tunnels, database daemons, etc.) with your own Bash tool. Instead, print the exact command and tell me to run it in my terminal, then wait for me to report the result.
+
+Reason: a process started in your shell is hard for me to stop later, and I cannot watch its logs while it runs.
+
+One-shot commands that finish on their own (builds, tests, linters, `git`, package installs) are fine to run yourself.
